@@ -6,7 +6,11 @@
  * @package    Timezone
  * @subpackage UnitTests
  */
-class Horde_Timezone_ParseTest extends Horde_Test_Case
+namespace Horde\Timezone;
+use Horde_Test_Case;
+use Horde_Timezone_Mock;
+
+class ParseTest extends Horde_Test_Case
 {
     public function testBug13455()
     {
