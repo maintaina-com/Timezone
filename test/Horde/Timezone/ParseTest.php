@@ -16,5 +16,7 @@ class ParseTest extends Horde_Test_Case
     {
         $tz = new Horde_Timezone_Mock('europe_jersey');
         $tz->getZone('Europe/Dublin')->toVtimezone();
+
+        $this->markTestIncomplete();
     }
 }
